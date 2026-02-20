@@ -22,6 +22,5 @@ jobs:
           name: Erbium
           path: |
             ./x64/Release/Erbium.dll
-            ./x64/Release/Erbium.pdb
           if-no-files-found: warn
           retention-days: 90
