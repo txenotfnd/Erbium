@@ -25,13 +25,3 @@ jobs:
             ./x64/Release/Erbium.pdb
           if-no-files-found: warn
           retention-days: 90
-
-      - name: Upload Compiled ErbiumClient DLL
-        uses: actions/upload-artifact@v4
-        with:
-          name: ErbiumClient
-          path: |
-            ./x64/Release/ErbiumClient.dll
-            ./x64/Release/ErbiumClient.pdb
-          if-no-files-found: warn
-          retention-days: 90
